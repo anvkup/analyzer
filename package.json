@@ -1,0 +1,28 @@
+{
+    "name": "analyzer",
+    "version": "1.0.0",
+    "type": "module",
+    "devDependencies": {
+        "@roxi/routify": "^2.18.4",
+        "autoprefixer": "^10.4.1",
+        "concurrently": "^6.5.1",
+        "esbuild": "^0.14.10",
+        "esbuild-sass-plugin": "^2.0.0",
+        "esbuild-svelte": "^0.6.0",
+        "live-server": "^1.2.1",
+        "postcss-import": "^14.0.2",
+        "postcss-preset-env": "^7.1.0",
+        "prettier": "^2.5.1",
+        "prettier-plugin-svelte": "^2.5.1",
+        "svelte": "^3.44.3",
+        "tailwindcss": "^3.0.8"
+    },
+    "scripts": {
+        "start": "node index.js dev",
+        "build": "node index.js prod",
+        "prettier:check": "prettier --check --plugin-search-dir=. ./src",
+        "prettier:format": "prettier --write --plugin-search-dir=. ./src"
+    },
+    "main": "index.js",
+    "license": "MIT"
+}

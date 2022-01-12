@@ -1,0 +1,14 @@
+# Directories
+preview/
+public/
+build/
+dist/
+
+# Lock files
+yarn.lock
+package-lock.json
+
+# Dependencies
+node_modules/
+
+*.html
